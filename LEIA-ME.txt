@@ -1,0 +1,58 @@
+VACINA JÁ — SITE INSTITUCIONAL
+================================
+
+ESTRUTURA
+- index.html: conteúdo e estrutura das seções.
+- style.css: identidade visual, layout responsivo e componentes.
+- script.js: menu, formulários e integração de autenticação.
+- imagens/vacina-ja-wordmark.png: versão tipográfica usada na área principal.
+- imagens/vacina-ja-logo-escudo.png: logotipo com escudo, cruz e seringa usado no cabeçalho e rodapé.
+- LEIA-ME.txt: estas instruções.
+
+COMO ABRIR
+1. Extraia a pasta do ZIP.
+2. Abra a pasta vacina_ja_site no Visual Studio Code.
+3. Para visualizar, use a extensão "Live Server" no VS Code e clique em
+   "Go Live". Também é possível abrir index.html no navegador, mas um
+   servidor local é recomendado.
+
+LOGOTIPO
+As duas imagens de identidade visual enviadas estão incluídas. O logotipo
+com escudo, cruz e seringa aparece no cabeçalho e rodapé; a versão tipográfica
+aparece como elemento de destaque na página inicial.
+
+CADASTRO E LOGIN — MODO DEMONSTRATIVO
+O cadastro e o login funcionam localmente neste navegador, sem banco de dados,
+conta externa ou contratação de serviço. É possível criar uma conta, sair e
+entrar novamente com o mesmo e-mail e senha neste mesmo navegador.
+
+- Os cadastros ficam no armazenamento local do navegador (localStorage).
+- A sessão fica armazenada na sessão atual do navegador.
+- A senha é transformada em hash no navegador, mas isso NÃO torna o sistema
+  adequado para contas reais ou informações pessoais.
+- Não use senhas pessoais ou reutilizadas. Os dados não são sincronizados
+  entre dispositivos ou navegadores.
+- A recuperação automática de senha não está disponível nesta demonstração.
+
+ATUALIZAÇÕES E NOTIFICAÇÕES
+O sino do cabeçalho leva à seção Atualizações. Ela contém avisos demonstrativos
+com links para fontes institucionais reais (Ministério da Saúde, Anvisa e
+Fiocruz). Os avisos são exemplos de interface, não notícias em tempo real.
+Notificações automáticas com o site fechado exigiriam serviço de push,
+permissões do navegador e infraestrutura adicional.
+
+PUBLICAÇÃO E DOMÍNIO
+O site é estático e pode ser publicado em serviços como Netlify, Vercel
+ou GitHub Pages. Depois de publicar:
+1. Adicione o domínio comprado no Registro.br ao serviço de hospedagem.
+2. Configure os registros DNS conforme as instruções do provedor.
+3. Ative HTTPS no provedor.
+4. Atualize Site URL e Redirect URLs no Supabase para o domínio final.
+5. Teste novamente os links, cadastro, login e recuperação de senha.
+
+OBSERVAÇÕES
+- O conteúdo é educativo e não substitui orientação de profissionais de saúde.
+- O Vacina Já é um projeto de TCC e não representa oficialmente o SUS,
+  o Governo Federal ou as instituições citadas.
+- Confira periodicamente os links e as orientações oficiais, pois campanhas
+  e calendários podem ser atualizados pelas autoridades competentes.
